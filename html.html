@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+</head>
+<body>
+    <table border="2">
+        <caption><h1>Inscription</h1></caption>
+        <tr>
+            <td><label for="nom">Nom</label></td>
+            <td><input type="text" id="nom" required></td>
+        </tr>
+        <tr>
+            <td><label for="prenom">Prenom</label></td>
+            <td><input type="text" id="prenom" required></td>
+        </tr>
+        
+        <tr>
+            <td><label for="email">Adresse email</label></td>
+            <td><input type="email" id="email" required></td>
+        </tr>
+        <tr>
+            <td><label for="adrpo">Adresse Postale</label></td>
+            <td><textarea name="" id="" cols="30" rows="5" required></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="dte">date naissance</label></td>
+            <td><input type="date" id="dte" required></td>
+        </tr>
+        <tr>
+            <td><label for="">sexe</label></td>
+            <td>
+                <table border="2">
+                    <tr>
+                        <td>
+                            <input type="radio" value="H" id="H" required>
+                            <label for="H">H</label>
+                        </td>
+                        <td>
+                            <input type="radio" value="F" id="F" required>
+                            <label for="F">F</label>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="confirmer">
+                <input type="reset" value="Réinitialiser">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
